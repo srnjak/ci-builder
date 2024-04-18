@@ -1,5 +1,5 @@
 # Use a minimal base image
-FROM debian:bookworm-slim
+FROM ubuntu:24.04
 
 # Install SSH client, GnuPG (GPG), and Git
 RUN apt-get update && \
