@@ -1,5 +1,5 @@
 # Use a minimal base image
-FROM debian:buster
+FROM debian:bookworm-slim
 
 # Install SSH client, GnuPG (GPG), and Git
 RUN apt-get update && \
