@@ -3,7 +3,7 @@ FROM ubuntu:24.04
 
 # Install SSH client, GnuPG (GPG), and Git
 RUN apt-get update && \
-    apt-get install -y openssh-client gnupg git
+    apt-get install -y openssh-client gnupg gnupg2 git
 
 # Set a generic working directory that makes sense regardless of the CI tool
 WORKDIR /workspace
